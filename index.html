@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- dummy.cafe new new new landing: "the flashbang" -->
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>dummy.cafe</title>
+
+	<!-- our stylesheets -->
+	<link rel="stylesheet" href="/assets/styles/global.css">
+	<link rel="stylesheet" href="/assets/styles/index.css">
+
+	<!-- our scripts -->
+	<script src="/assets/scripts/global.js"></script>
+	<script src="/assets/scripts/index.js"></script>
+
+	<!-- og metadata. for embeds on twt and discord and stuff -->
+	<meta content="dummy.cafe" property="og:title" />
+	<meta content="A Mastodon and Matrix server, with more cool stuff coming soon" property="og:description" />
+	<meta content="https://dummy.cafe/" property="og:url" />
+	<meta content="https://dummy.cafe/assets/brand/logo-wide.png" property="og:image" />
+	<!--<meta content="#77ffd0" data-react-helmet="true" name="theme-color" />--> <!-- this is supposed to set the discord embed color, but it also makes the safari top bar and bottom bar that color, so we aren't doing it and just gonna deal with discord embeds looking wrong -->
+
+	<!-- make safari use the right color for top bar and bottom bar -->
+	<meta name="theme-color" content="#f5f5f5">
+
+	<!-- the authy support person said
+	this would make the logo show up correctly in authy -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "organization",
+		"url": "https://dummy.cafe",
+		"logo": "https://dummy.cafe/assets/brand/logo-wide.png"
+	}
+	</script>
+
+	<!-- betteruptime thing -->
+	<script src="https://betteruptime.com/widgets/announcement.js" data-id="147391" async="async" type="text/javascript"></script>
+
+	<!-- jetbrains mono font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="wallpaper-info">
+		<a id="wallpaper-info-text" target="_blank">loading... <noscript>sorry, we can't load the background image of the day (you have JS disabled)</noscript></a>
+	</div>
+	<div id="content">
+		<a href="https://go.dummy.cafe/account-request">sign up</a>
+		<a href="https://toot.dummy.cafe/">mastodon</a>
+		<a href="https://chat.dummy.cafe/">matrix</a>
+		<a href="https://status.dummy.cafe/">status</a>
+		<img src="/assets/brand/logo-wide.png" alt="dummy.cafe logo" class="dummycafe-logo">
+		<p class="description">yet another generic English-speaking Mastodon instance and Matrix homeserver hosted in Europe</p>
+		<!--<p class="description">("dummy" as in when an anime girl says baka, cafe because cafes are cool)</p>-->
+	</div>
+</body>
+</html>
